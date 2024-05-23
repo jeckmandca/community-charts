@@ -1,0 +1,222 @@
+.publish-chart-modal .ant-modal-content {
+    background-color: black;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the modal content spans the full height of the screen */
+    padding: 0;
+}
+
+.modal-title {
+    color: white;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 750px;
+    height: 100%; /* Ensure the modal content spans the full height of the modal */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.modal-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #444; 
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.modal-input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.ql-wrapper {
+    border: 0.5px solid #2c2c2c;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 0 0 #3b3b3b;
+}
+
+/* Remove hover and focus coloring from ql-wrapper */
+.ql-wrapper:hover,
+.ql-wrapper:focus-within {
+    border-color: #3b3b3b;
+    box-shadow: 0 0 0 0 #3b3b3b;
+}
+
+/* Quill Text Box Styling */
+.ql-container.ql-snow {
+    width: 100%;
+    height: 60vh;
+    border: 0.5px solid #2c2c2c;
+    min-height: 250px; 
+    background-color: black;
+    color: white;
+    border-top: 1px solid #3b3b3b;
+    border-radius: 0 0 6px 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+}
+
+.ql-container.ql-snow:hover {
+    border-color: #b9b9b9;
+    box-shadow: 0 0 6px #b9b9b9;
+}
+
+.ql-container.ql-snow:focus-within {
+    border-color: #00fff2;
+    box-shadow: 0 0 6px #00d5ff;
+}
+
+.ql-editor {
+    background-color: black;
+    color: white;
+    height: 97%;
+    border-radius: 0 0 6px 6px;
+    position: relative;
+    font-size: 14px;
+}
+
+.ql-editor.ql-blank::before {
+    content: attr(data-placeholder);
+    font-size: 16px;
+    color: rgb(214, 214, 214);
+    font-style: italic;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 1001;
+}
+
+.custom-select .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100%;
+    height: 45px;
+    padding: 0 11px;
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+}
+
+.custom-select-placeholder {
+    font-size: 20px !important;
+    font-weight: 800 !important;
+    font-family: Comfortaa, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    height: 100%;
+    font-feature-settings: 'tnum';
+}
+
+.ant-select-dropdown {
+    border-radius: 6px !important; /* Round the corners of the dropdown box */
+    font-size: 22px; /* Increase the font size of the dropdown items */
+}
+
+.ant-select-item {
+    font-size: 22px; /* Increase the font size of the dropdown items */
+}
+
+.continue-button {
+    width: 100%;
+    height: 60px;
+    background-color: #00d5ff !important;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 24px;
+}
+
+.continue-button:hover {
+    background-color: #00d2cb !important;
+    box-shadow: 0 0 10px #00d5ff;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    font-weight: 800;
+    border-radius: 6px;
+    border: .5px solid #414141;
+    height: 45px;
+    font-family: Comfortaa, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+.ql-snow .ql-stroke {
+    fill: none;
+    stroke: #ededed;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.ql-snow.ql-toolbar button,
+.ql-snow .ql-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex; /* Use flex to center content */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 0; /* Remove padding to ensure proper alignment */
+  margin: 0 10px; /* Adjust margin to move the button from the edge */
+}
+
+.ql-toolbar.ql-snow {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    height: 50px;
+    border: 4px solid #1E222D;
+    border-radius: 6px 6px 0 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: #fff;
+    background-color: #1E222D;
+    transition: box-shadow 0.3s;
+    padding-left: 0px; /* Adjust padding to align with other elements */
+}
+
+.ql-snow.ql-toolbar button svg,
+.ql-snow .ql-toolbar button svg {
+  height: 30px; /* Adjust the size of the SVG icons */
+  width: 30px; /* Adjust width if needed */
+  color: white;
+}
+
+
+

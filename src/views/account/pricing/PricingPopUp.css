@@ -1,0 +1,116 @@
+h3 {
+  color: #fff;
+}
+
+.price_colums {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.price_colums ul {
+  list-style: none;
+  margin: 0;
+  border: 1px solid rgba(255,255,255,.2);
+  padding: 20px 35px;
+  border-radius: 20px;
+}
+
+li.plan_title_box h1 {
+  line-height: 1.2;
+  margin: 0;
+}
+
+li.plan_title_box p {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+li.mini_titlr {
+  padding: 10px 0;
+  font-size: 16px;
+  font-style: italic;
+  opacity: .6;
+  text-decoration: underline;
+}
+
+li.plan_tools {
+  padding-left: 40px;
+  position: relative;
+  display: block;
+  margin: 15px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+li.plan_tools span.pln_icon {
+  position: absolute;
+  left: 0;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  background: #2ed8a7;
+  border-radius: 50%;
+  top: 0;
+}
+
+li.plan_title_box button {
+  display: block;
+  border-radius: 50px;
+  font-size: 20px;
+  height: auto;
+  padding: 10px;
+  width: 100%;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+}
+
+li.plan_title_box .btn_blank {
+  background: transparent;
+  color: #2ed8a7;
+  border: 2px solid #2ed8a7;
+}
+
+li.plan_title_box .btn_fill {
+  background: #2ed8a7;
+  color:  #000;
+  border: 2px solid #2ed8a7;
+}
+
+span.pln_icon svg {
+  fill: #000;
+}
+
+.ant-modal-content li.sub_text ul p {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.ant-modal-content li.sub_text {
+  text-decoration: none;
+  padding-top: 0;
+  opacity: 1;
+}
+
+.ant-modal-content li.sub_text ul {
+  border: none;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.ant-modal-content li.sub_text ul li {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+  font-size: 14px !important;
+}
+
+@media only screen and (max-width:768px) {
+  .price_colums {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

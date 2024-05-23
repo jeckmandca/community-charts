@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Dosis";
+  src: url(./fonts/Dosis.ttf);
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(./fonts/SpaceGrotesk.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: rgb(10, 11, 14) !important;
+}
+
+header.ant-layout-header .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+header.ant-layout-header .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  padding-right: 0 !important;
+}
+
+header.ant-layout-header .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover span {
+  color: #13f3c9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.headerBG {
+  background: rgba(10, 11, 14, 1);
+}
+
+.ant-btn-round:hover {
+  color: #fff !important;
+}
+
+.ant-table-thead {
+  background: #0a0b0e00 !important;
+  color: #fff !important;
+}
+
+.ant-table-content > table {
+  background: #222 !important;
+  border-bottom: none !important;
+}
+
+.ant-table-content > table > th {
+  background: #222 !important;
+  color: #fff !important;
+}
+
+.ant-table-content > table .ant-table-thead {
+  background: #222 !important;
+  color: #fff !important;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: 0.03rem solid #222 !important;
+}
+
+thead > tr > th .ant-table-thead {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+.ant-table-thead > tr > th {
+  background: #222 !important;
+  color: #fff !important;
+  border-bottom: .5px solid #333 !important;
+}
+
+.ant-table-tbody > tr:hover {
+  background: #222 !important;
+  color: #eee !important;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: #222 !important;
+  color: #ccc !important;
+  cursor: pointer !important;
+}
+
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th {
+  text-align: center !important;
+}
+
+.ant-table-container table > thead > tr:first-child th:first-child {
+  border-top-left-radius: 12px !important;
+}
+
+.ant-table-container table > thead > tr:first-child th:last-child {
+  border-top-right-radius: 12px !important;
+}
+
+.ant-table-container table > thead > tr > th {
+  border-right: 1px solid #333;
+}
+
+.ant-layout-content {
+  width: 100%!important;
+}
+
+@media (max-width: 480px) {
+  header.ant-layout-header .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+  header.ant-layout-header .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+    padding-left: 10px !important;
+  }
+
+  .header-custom-menu .anticon.anticon-ellipsis {
+    padding-left: 5px !important;
+  }
+}

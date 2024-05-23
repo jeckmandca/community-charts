@@ -1,0 +1,338 @@
+.ant-col:hover {
+  color: #13f3c9 !important;
+}
+
+button.ant-btn.ant-btn-default.button-right {
+  float: right;
+  color: #c8c8c8;
+  border-color: #9b9b9b;
+  background-color: #212128;
+  border-radius: 8px;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) .ant-select-item-option-content .ant-col {
+  background-color: rgb(22, 24, 29) !important;
+  color: #13f3c9 !important;
+  display: block;
+  width: 100%;
+  text-align: left !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) .ant-select-item-option-content {
+  color: #13f3c9 !important;
+}
+
+.input-label {
+  color: #fff !important;
+}
+
+.metricModal {
+  top: -30px;
+  margin: 0 auto;
+  max-width: 420px !important;
+}
+
+.metricModal .ant-modal-content {
+  top: 10em;
+}
+
+.metricModal .ant-modal-content {
+  background-color: #000000;
+  border: 1px solid #fff;
+}
+
+.metricModal .ant-modal-content .ant-modal-header {
+  background-color: #101010;
+  border: none;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding-bottom: 0;
+}
+
+.metricModal .ant-modal-header .ant-modal-title {
+  color: rgb(255 255 255 / 85%);
+}
+
+.typoCustomColor {
+  color: #fff !important;
+}
+
+.disableColor {
+  color: grey !important;
+}
+
+.ant-select.customSelectOne.ant-select-single.ant-select-show-arrow.ant-select-disabled.ant-select-show-search {
+  background: grey;
+  cursor: wait;
+}
+
+.customForm .ant-select-selector {
+  border: 1px solid #333333 !important;
+  background-color: transparent !important;
+  height: 32px !important;
+}
+
+.customForm .ant-select-selector:hover {
+  border: 1px solid #ffffff !important;
+  background-color: transparent !important;
+  height: 32px !important;
+}
+
+.customForm .ant-select-selector:hover {
+  border: 1px solid #ffffff !important;
+  background-color: transparent !important;
+  height: 32px !important;
+  transition: 0.1s;
+}
+
+.ant-select.ant-select-lg.ant-select-in-form-item.ant-select-single.ant-select-show-arrow.ant-select-show-search {
+	bottom: 0;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, 0.85);
+	cursor: pointer;
+	display: inline-block;
+	font-family: Inter, "Helvetica Neue", system-ui, sans-serif;
+	font-feature-settings: "tnum";
+	font-size: 14px;
+	font-variant: tabular-nums;
+	left: 0;
+	line-height: 1.5715;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 0;
+	top: 0;
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.customSelectOne .ant-select-selector {
+  border: 1px solid #333333 !important;
+  background-color: transparent !important;
+  height: 32px !important;
+}
+
+.customSelectOne .ant-select-selector::after {
+  border: 1px solid #ffffff !important;
+  background-color: transparent !important;
+  height: 32px !important;
+}
+
+.customForm .ant-select-selector input {
+  border: none !important;
+}
+
+.customForm input {
+  border: 1px solid #fff !important;
+  background-color: transparent !important;
+  height: 32px !important;
+  color: #fff;
+}
+
+.customForm input::placeholder {
+  color: #fff;
+}
+
+.metricModal .ant-modal-footer .ant-btn.ant-btn-default {
+  background: transparent;
+  color: #fff;
+  border-radius: 5px;
+  min-width: 90px;
+  border: 1px solid #fff;
+}
+
+.metricDropdown .ant-select-selector {
+  padding-top: 5px !important;
+}
+
+.metricModal .ant-modal-footer {
+  border: none;
+  padding-top: 0;
+}
+
+.metricModal .ant-modal-footer .ant-btn.ant-btn-primary {
+  background-color: #090909;
+  border: 1px solid #444444;
+  min-width: 90px;
+  border-radius: 5px;
+}
+
+.metricModal .ant-modal-footer .ant-btn.ant-btn-primary:hover {
+  background-color: #171717;
+  border: 1px solid #b9b9b9;
+  min-width: 90px;
+  border-radius: 5px;
+  box-shadow: rgba(236, 236, 236, 0.35) 2px 2px 2px;
+}
+
+.metricModal .ant-modal-close svg {
+  color: #fff;
+}
+
+.widthCalculate {
+  width: calc(100% - 180px);
+}
+
+@media (min-width: 577px) and (max-width: 767.99px) {
+  .ant-select-dropdown {
+    z-index: 105000 !important;
+  }
+
+  .typoWidthIncrease {
+    min-width: 175px !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 576.99px) {
+  .ant-select-dropdown {
+    z-index: 105000 !important;
+  }
+  .typoWidthIncrease {
+    min-width: 175px !important;
+  }
+}
+
+.metricModal .ant-modal-content {
+  background-color: #000000;
+  border: 1px solid #3a3a3a;
+  width: 35em;
+  z-index: 9999999 !important;
+}
+
+.ant-modal-content {
+  background-clip: padding-box;
+  background-color: #000000;
+  border-radius: 11px;
+  bottom: 5px;
+  box-shadow: rgba(255, 255, 255, 0.35) 2px 5px 8px -2px,
+    rgba(255, 255, 255, 0.08) 0 6px 16px 0,
+    rgba(183, 183, 183, 0.05) 0 9px 28px 8px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: comfortaa, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-variant: tabular-nums;
+  left: 0;
+  line-height: 22.001px;
+  list-style: outside none none;
+  pointer-events: auto;
+  position: relative;
+  right: 0;
+}
+
+.rc-virtual-list-scrollbar-thumb {
+  background: rgba(143, 143, 143, 0.5) !important;
+}
+
+.ant-select-dropdown {
+  z-index: 99999 !important;
+}
+
+.metricModalCustomButton {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.economic-button.active {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 8px;
+}
+
+.indexes-button.active {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 8px;
+}
+
+.crypto-button.active {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 8px;
+}
+
+.crypto-button.active:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 8px;
+}
+
+.metricModalCustomButton button {
+  color: #9e9e9e;
+  border-color: #737171;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.metricModalCustomButton button:hover {
+  color: #c8c8c8;
+  border-color: #9b9b9b;
+  background-color: #050505;
+  border-radius: 8px;
+}
+
+.metricModalCustomButton button:focus {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #d0d0d0;
+  border-radius: 8px;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .metricModalCustomButton button {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1000px) and (max-height: 500px) {
+  .ant-select-dropdown {
+    max-height: 130px !important;
+    height: auto;
+    overflow: hidden;
+    overflow-y: overlay;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .metricModal {
+    max-width: calc(100vw - 32px) !important;
+    width:100% !important;
+  }
+
+  .metricModalCustomButton button {
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  .ant-modal-content {
+    max-width: 90%;
+    margin:0 auto;
+  }
+}
+
+.custom-modal {
+  background-color: rgb(0, 0, 0);
+}
+
+.custom-typography {
+  color: white;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.custom-error {
+  color: red;
+}
+
+.highcharts-range-selector-group {
+  display: none;
+}

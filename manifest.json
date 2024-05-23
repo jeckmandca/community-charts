@@ -1,0 +1,21 @@
+{
+    "name": "PolarityDigital",
+    "short_name": "polarityDigital",
+    "start_url": "https://test.polaritydigital.io/",
+    "scope": "./",
+    "icons": [
+      {
+        "src": "contract.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "contract.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffd31d",
+    "background_color": "#333",
+    "display": "standalone"
+  }

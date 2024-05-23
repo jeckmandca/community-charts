@@ -1,0 +1,45 @@
+.logout-section {
+  z-index: 999999;
+  position: absolute;
+  right: 20px;
+}
+
+.sideBarBorder {
+  border-bottom: 1px solid #c0c0c054;
+  margin-bottom: 15px;
+  text-align: left !important;
+}
+
+.contact-p {
+  font-size: 12px;
+  color: #fff !important;
+}
+
+.logOutBorder,
+.logOutBorder:focus,
+.logOutBorder:hover {
+  border: 1px solid #2ed8a7;
+  padding: 0 20px;
+  line-height: 18px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.ant-space.ant-space-horizontal.ant-space-align-center.fontSi {
+  font-size: 17px !important;
+}
+
+.pricing {
+  font-size: 17px !important;
+  color: #fff !important;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #c0c0c054;
+  width: 100%;
+}
+
+.borderRightNone {
+  border-right: none !important;
+}

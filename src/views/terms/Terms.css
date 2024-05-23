@@ -1,0 +1,33 @@
+h2.ant-typography,
+h4.ant-typography {
+  color: #fff;
+}
+
+.terms-condition {
+  padding: 30px 15px;
+}
+
+.ant-typography {
+  color: #a4a4a4;
+}
+
+.terms-condition h2 {
+  margin-bottom: 10px !important;
+}
+
+.terms-condition h4 {
+  margin-top: 0 !important;
+}
+
+.list-alfabets {
+  padding-left: 15px !important;
+}
+
+.list-alfabets li {
+  list-style: lower-latin;
+}
+
+.list-alfabets li div {
+  margin-bottom: 0 !important;
+  font-size: 15px;
+}
